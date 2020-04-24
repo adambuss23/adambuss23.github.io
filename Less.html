@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>ADAM BUSS </title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Imports -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kwl6xxx.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> -->
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+
+</head>
+
+<body>
+    <header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+
+        <div id="main">
+            <span class="ham" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "100%";
+                document.getElementById("main").style.marginLeft = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+
+        </script>
+        <nav>
+            <a href="About.html">ABOUT</a>
+            <a href="Contact.html">CONTACT</a>
+        </nav>
+        <div class="logo"><a href="index.html"><img src="images/logo.svg"></a></div>
+
+        <div class="sort">
+            <a class="all current" href="index.html?all">ALL</a>
+            <a class="photography" href="index.html?photo">PHOTO/VIDEO</a>
+            <a class="graphicdesign" href="index.html?design">DESIGN</a>
+        </div>
+        <hr>
+    </header>
+    <!-- <script>
+
+        // Filter Buttons
+        $(".all").click(function () {
+            $grid.isotope({ filter: '*' });
+            $('.all').addClass('current');
+            $('.photography').removeClass('current');
+            $('.graphicdesign').removeClass('current');
+        });
+        $(".photography").click(function () {
+            $grid.isotope({ filter: '.photo' });
+            $('.photography').addClass('current');
+            $('.all').removeClass('current');
+            $('.graphicdesign').removeClass('current');
+        });
+        $(".graphicdesign").click(function () {
+            $grid.isotope({ filter: '.design' });
+            $('.graphicdesign').addClass('current');
+            $('.all').removeClass('current');
+            $('.photography').removeClass('current');
+        });
+
+    </script> -->
+
+    <h1>-LESS APP-</h1>
+
+
+    <div class="desc">
+        <p>Less is a minimalist app prototype that was created to help the user determine the things they could get rid of from their life. Using Bluetooth beacons the app would log and keep track of the things the user interacted with daily. I started the design by working out a process flow for how the app would function. Then I wireframed and user tested the app. Using the things learned from user testing I created a revised process and made it functional with invision. <a href="app.html" target="_blank">VIEW THE FULL PROCESS WRITEUP HERE</a>
+        </p>
+
+    </div>
+    <div class="left">
+        <img src="images/Less/DynamicRight.gif" class="wide">
+        <img src="images/Less/less1.jpg" class="skinny">
+        <img src="images/Less/less2.jpg" class="skinny">
+        <img src="images/Less/less3.jpg" class="skinny">
+        <img src="images/Less/less4.jpg" class="skinny">
+    </div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>

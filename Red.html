@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>ADAM BUSS </title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Imports -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/kwl6xxx.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script> -->
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+
+</head>
+
+<body>
+    <header>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="About.html">About</a>
+            <a href="Contact.html">Contact</a>
+        </div>
+
+        <div id="main">
+            <span class="ham" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "100%";
+                document.getElementById("main").style.marginLeft = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+        </script>
+        <nav>
+            <a href="About.html">ABOUT</a>
+            <a href="Contact.html">CONTACT</a>
+        </nav>
+        <div class="logo"><a href="index.html"><img src="images/logo.svg"></a></div>
+
+        <div class="sort">
+            <a class="all current" href="index.html?all">ALL</a>
+            <a class="photography" href="index.html?photo">PHOTO/VIDEO</a>
+            <a class="graphicdesign" href="index.html?design">DESIGN</a>
+        </div>
+        <hr>
+    </header>
+    <!-- <script>
+
+        // Filter Buttons
+        $(".all").click(function () {
+            $grid.isotope({ filter: '*' });
+            $('.all').addClass('current');
+            $('.photography').removeClass('current');
+            $('.graphicdesign').removeClass('current');
+        });
+        $(".photography").click(function () {
+            $grid.isotope({ filter: '.photo' });
+            $('.photography').addClass('current');
+            $('.all').removeClass('current');
+            $('.graphicdesign').removeClass('current');
+        });
+        $(".graphicdesign").click(function () {
+            $grid.isotope({ filter: '.design' });
+            $('.graphicdesign').addClass('current');
+            $('.all').removeClass('current');
+            $('.photography').removeClass('current');
+        });
+
+    </script> -->
+
+    <h1>-Internship Photo Journal-</h1>
+
+    <div class="desc">
+        <p>A visual journal of our time in philly interning at Red Tettemer. The photos were taken on a nishika n8000 film camera then overlaid to create the moving gif effect. The process of learning to use this camera went hand in hand with the trial and error of working at our internship. It took numerous rolls to get anything usable but made it so much more rewarding in the end. I then took the pictures and coded a site for them to live on rather than make the traditional photo book.
+            <a href="philly.html" target="_blank">View Photo journal</a>
+        </p>
+
+    </div>
+    <div class="left">
+        <img src="images/Red/Red1.jpg" class="wide">
+        <img src="images/Red/Red2.jpg" class="wide">
+        <img src="images/Red/Red3.jpg" class="wide">
+        <img src="images/Red/Red4.jpg" class="wide">
+
+
+    </div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
